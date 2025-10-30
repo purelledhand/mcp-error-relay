@@ -1,0 +1,43 @@
+{
+  "name": "mcp-error-relay",
+  "version": "1.1.0",
+  "description": "MCP server for optimizing error handling by providing detailed error hint for client",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "yarn build",
+    "lint:fix": "prettier --write ."
+  },
+  "keywords": [
+    "mcp",
+    "error",
+    "debugging",
+    "model-context-protocol"
+  ],
+  "author": "purelledhand",
+  "license": "MIT",
+  "dependencies": {
+    "fastmcp": "^3.22.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "^24.9.2",
+    "eslint": "^9.38.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mcp-error-relay"
+  }
+}
