@@ -1,6 +1,6 @@
 # MCP Error Relay
 
-MCP server which provides other MCP server's error log to LLMs enabling them to handle errors more intelligently
+It relays error logs from other MCP servers when an LLM call fails and the returned error message is unclear, helping the model handle errors more intelligently.
 
 Let's stop burning tokens on your LLMs' blind retries. Give them hints for error from MCP server log.
 
