@@ -57,3 +57,7 @@ yarn start
   }
 }
 ```
+
+## Contributing
+
+Complete it together please 🥺
